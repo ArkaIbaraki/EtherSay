@@ -4,6 +4,9 @@
 ![Livewire](https://img.shields.io/badge/Livewire-4.0-FB70A9?style=flat-square&logo=livewire)
 ![WebSocket](https://img.shields.io/badge/WebSocket-Reverb-00D084?style=flat-square)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4.0-38B2AC?style=flat-square&logo=tailwind-css)
+![Status](https://img.shields.io/badge/Status-WIP-orange?style=flat-square)
+
+⚠️ **STATUS: Work In Progress (WIP)** - Project ini masih dalam tahap pengembangan aktif. Aplikasi masih banyak kemungkinan bug dan fitur mungkin berubah tanpa pemberitahuan. Gunakan dengan hati-hati di production environment!
 
 EtherSay adalah aplikasi chat real-time untuk jaringan lokal (LAN) yang dibangun dengan Laravel 11, Livewire 4, dan WebSocket Reverb. Tidak memerlukan login/password - cukup input username dan langsung bisa chat!
 
