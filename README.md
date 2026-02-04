@@ -185,8 +185,6 @@ Dokumentasi lengkap tersedia di folder `docs/`:
 - [RESPONSIVE.md](docs/RESPONSIVE.md) - Responsive design guide
 - [BUGFIXES.md](docs/BUGFIXES.md) - Troubleshooting dan bug fixes
 - [CHANGELOG.md](docs/CHANGELOG.md) - History rilis dan roadmap
-- [COMMIT_CONVENTION.md](docs/COMMIT_CONVENTION.md) - Semantic commit convention
-- [GITHUB_PUSH.md](docs/GITHUB_PUSH.md) - Instruksi push ke GitHub
 
 ## 🐛 Troubleshooting
 
