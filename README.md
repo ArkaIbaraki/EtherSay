@@ -258,17 +258,3 @@ Dibuat dengan ❤️ untuk komunikasi LAN yang mudah dan cepat.
 ---
 
 **Selamat mencoba EtherSay! 🚀**
-
-
-## 🤝 Contributing
-
-Kontribusi sangat diterima! Silakan:
-1. Fork repository
-2. Buat feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes Anda
-4. Push ke branch (`git push origin feature/amazing-feature`)
-5. Open Pull Request
-
-## 📄 License
-
-Open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
