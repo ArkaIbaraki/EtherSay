@@ -174,22 +174,36 @@ Edit `app/Livewire/Chat.php`, line ~83:
 'file' => 'nullable|file|max:10240', // 10MB
 ```
 
+## � Documentation
+
+Dokumentasi lengkap tersedia di folder `docs/`:
+- [QUICKSTART.md](docs/QUICKSTART.md) - Panduan singkat memulai
+- [FILE_UPLOAD_GUIDE.md](docs/FILE_UPLOAD_GUIDE.md) - Panduan upload file
+- [RESPONSIVE.md](docs/RESPONSIVE.md) - Responsive design guide
+- [BUGFIXES.md](docs/BUGFIXES.md) - Troubleshooting dan bug fixes
+- [CHANGELOG.md](docs/CHANGELOG.md) - History rilis dan roadmap
+- [COMMIT_CONVENTION.md](docs/COMMIT_CONVENTION.md) - Semantic commit convention
+- [GITHUB_PUSH.md](docs/GITHUB_PUSH.md) - Instruksi push ke GitHub
+
 ## 🐛 Troubleshooting
 
 ### User tidak terlihat online
 - Pastikan Reverb server jalan: `php artisan reverb:start`
 - Check browser console untuk error WebSocket
 - Cek firewall tidak block port 8080
+- Lihat detail di [BUGFIXES.md](docs/BUGFIXES.md)
 
 ### File tidak bisa diupload
 - Pastikan `php artisan storage:link` sudah dijalankan
 - Check permission folder `storage/`
 - Verify max upload size di `php.ini`
+- Lihat [FILE_UPLOAD_GUIDE.md](docs/FILE_UPLOAD_GUIDE.md) untuk detail
 
 ### Chat tidak realtime
 - Restart Reverb server
 - Clear browser cache
 - Check koneksi WebSocket di browser DevTools > Network > WS
+- Lihat [BUGFIXES.md](docs/BUGFIXES.md) untuk solusi lengkap
 
 ## 📝 Development
 
@@ -245,18 +259,15 @@ Dibuat dengan ❤️ untuk komunikasi LAN yang mudah dan cepat.
 **Selamat mencoba EtherSay! 🚀**
 
 
-## Contributing
+## 🤝 Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Kontribusi sangat diterima! Silakan:
+1. Fork repository
+2. Buat feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit changes Anda
+4. Push ke branch (`git push origin feature/amazing-feature`)
+5. Open Pull Request
 
-## Code of Conduct
+## 📄 License
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
